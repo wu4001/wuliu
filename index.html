@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>物流信息查询平台</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>物流信息查询与服务推广</h1>
+      <p>查询专线物流、货运公司信息</p>
+    </header>
+
+    <!-- 查询框区域 -->
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="输入出发地、目的地查询物流">
+      <button id="searchBtn">查询</button>
+    </div>
+
+    <!-- 查询结果展示，这里留空，由JS自动渲染数据 -->
+    <div class="result" id="resultBox">
+    </div>
+
+    <!-- 推广板块 -->
+    <div class="promote">
+      <h2>服务推广</h2>
+      <ul>
+        <li>承接整车零担运输</li>
+        <li>大件设备运输</li>
+        <li>长途搬家、行李托运</li>
+        <li>展会货物运输</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
